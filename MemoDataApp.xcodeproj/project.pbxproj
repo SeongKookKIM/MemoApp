@@ -11,6 +11,7 @@
 		A6CDC5732BD6308900D165DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CDC5722BD6308900D165DA /* ContentView.swift */; };
 		A6CDC5752BD6308D00D165DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6CDC5742BD6308D00D165DA /* Assets.xcassets */; };
 		A6CDC5782BD6308D00D165DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6CDC5772BD6308D00D165DA /* Preview Assets.xcassets */; };
+		A6EBFDF62BD7529F00D7EFAD /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBFDF52BD7529F00D7EFAD /* Memo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A6CDC5722BD6308900D165DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A6CDC5742BD6308D00D165DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6CDC5772BD6308D00D165DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6EBFDF52BD7529F00D7EFAD /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		A6CDC56F2BD6308900D165DA /* MemoDataApp */ = {
 			isa = PBXGroup;
 			children = (
-				A6F6B7B72BD6381A005F2856 /* View */,
 				A6CDC5702BD6308900D165DA /* MemoDataAppApp.swift */,
+				A6CDC5722BD6308900D165DA /* ContentView.swift */,
+				A6EBFDF52BD7529F00D7EFAD /* Memo.swift */,
 				A6CDC5742BD6308D00D165DA /* Assets.xcassets */,
 				A6CDC5762BD6308D00D165DA /* Preview Content */,
 			);
@@ -65,14 +68,6 @@
 				A6CDC5772BD6308D00D165DA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A6F6B7B72BD6381A005F2856 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				A6CDC5722BD6308900D165DA /* ContentView.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6EBFDF62BD7529F00D7EFAD /* Memo.swift in Sources */,
 				A6CDC5732BD6308900D165DA /* ContentView.swift in Sources */,
 				A6CDC5712BD6308900D165DA /* MemoDataAppApp.swift in Sources */,
 			);
